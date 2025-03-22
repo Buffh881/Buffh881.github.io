@@ -674,6 +674,7 @@ form {
   text-align: center;
   margin: 20px auto;
 }
+
 form input, form textarea {
   border: 0;
   outline: 0;
@@ -690,23 +691,28 @@ form input, form textarea {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   resize: none;
 }
+
 form input:focus, form textarea:focus {
   -moz-box-shadow: 0 0px 2px #F7D7A4 !important;
   -webkit-box-shadow: 0 0px 2px #F7D7A4 !important;
   box-shadow: 0 0px 2px #F7D7A4 !important;
 }
+
 form #input-submit {
   color: white;
   background: var(--gold) ;
   cursor: pointer;
 }
+
 form #input-submit:hover {
   -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
 }
-form textarea {
-  height: 126px;
+
+form textarea#input-message {
+  height: 70px;
+  margin-left: 30px;
 }
 
 .half {
